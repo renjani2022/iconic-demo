@@ -1,23 +1,22 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import { IonContent, IonFooter, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import QuizComp from '../components/QuizComp';
 import './Home.css';
 
 const Home: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
+        <IonToolbar className='ion-header'>
+          <IonTitle className='ion-title'>Ready to play?</IonTitle>
           </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
+      </IonHeader>
+      <IonContent className='ion-content'>
+        <QuizComp />
       </IonContent>
+      <IonFooter className='ion-footer'>
+      <IonTitle className='ion-title'>Enjoy the game!</IonTitle>
+      </IonFooter>
+
     </IonPage>
   );
 };
