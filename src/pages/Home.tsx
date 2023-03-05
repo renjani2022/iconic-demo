@@ -1,5 +1,4 @@
 import { IonContent, IonFooter, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import QuizComp from '../components/QuizComp';
 import './Home.css';
 
 const Home: React.FC = () => {
@@ -11,7 +10,6 @@ const Home: React.FC = () => {
           </IonToolbar>
       </IonHeader>
       <IonContent className='ion-content'>
-        <QuizComp />
       </IonContent>
       <IonFooter className='ion-footer'>
       <IonTitle className='ion-title'>Enjoy the game!</IonTitle>
