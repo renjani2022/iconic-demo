@@ -79,7 +79,7 @@ return (
             <div className='score-section'>
                 You have scored {score} out of {ListQuestions.length}
                 <>
-                   <button type="submit" onClick={resetQuiz}>Repeat playing?</button>
+                   <button type="submit" onClick={resetQuiz}>Repeat?</button>
                 </>
             </div>
         )

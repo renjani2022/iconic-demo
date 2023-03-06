@@ -9,7 +9,8 @@ const Home: React.FC = () => {
       <IonHeader>
         <IonToolbar className='ion-header'>
           <IonTitle className='ion-title'>JS Quiz 📢 <span><img src="./quiz.png" alt="" /></span></IonTitle>
-          <img src="./quiz.png" alt="" />
+          <br />
+          <br />
           </IonToolbar>
       </IonHeader>
       <IonContent className='ion-content'>
@@ -18,7 +19,8 @@ const Home: React.FC = () => {
       </IonContent>
       <IonFooter className='ion-footer'>
       <IonTitle className='ion-title'>Enjoy the game! 💯</IonTitle>
-      <img src="./quiz.png" alt="" />
+      <br />
+      <br />
       </IonFooter>
 
     </IonPage>
