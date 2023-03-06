@@ -1,7 +1,6 @@
 .ion-header {
     text-align: left;
     position: absolute;
-    left: 20px;
     right: 0;
     top: 30%;
 }
@@ -11,6 +10,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
     font-weight: 600;
+    left: 20px;
 }
 
 .ion-content {
@@ -24,7 +24,6 @@
 
 .ion-footer {
     text-align: left;
-    left: 20px;
     background-color: rgb(15, 1, 1);
 }
 

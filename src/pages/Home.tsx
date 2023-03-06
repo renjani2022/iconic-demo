@@ -7,12 +7,14 @@ const Home: React.FC = () => {
       <IonHeader>
         <IonToolbar className='ion-header'>
           <IonTitle className='ion-title'>Ready to play?</IonTitle>
+          <br />
           </IonToolbar>
       </IonHeader>
       <IonContent className='ion-content'>
       </IonContent>
       <IonFooter className='ion-footer'>
       <IonTitle className='ion-title'>Enjoy the game!</IonTitle>
+      <br />
       </IonFooter>
 
     </IonPage>
